@@ -1,1 +1,3 @@
 # tensorflow_epoch_test
+
+with_epoch_test 设置了epoch的次数，without_epoch_test没有设置epoch次数，这两个是有区别的，设置epoch之后，如果都能整除，得到的样本的个数均为epoch，而不设置则是完全随机的。前者对于训练更好
